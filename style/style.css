@@ -23,3 +23,69 @@ html{
   .logo img {
     width: 150px;
   }
+
+  .kartinka {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  background-color: lightcyan;
+  box-sizing: border-box;
+  padding: 30px;
+  border: 5px lightseagreen solid;
+  border-radius: 50px;
+  box-shadow: inset 0 0 3px #000000;
+}
+  .kartinka img {
+    width: 130px;
+  }
+  
+  
+  .mainContainer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    background-color: lightskyblue;
+  }
+  .leftSide, .rightSide {
+    width: 320px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 25px;
+    background-color: lightyellow;
+    border-radius: 15%;
+    border: dashed 3px darkorange;
+    box-shadow: inset 0 0 10px grey;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+     .leftSide img, .rightSide img {
+       width: 170px;
+     }
+
+     .leftSide h1 {
+       font-size: 2.0em;
+     }
+    
+
+     .borders {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  border: hidden  20px yellow;
+}
+
+.borders:hover {
+  border: double  20px yellow;
+}
