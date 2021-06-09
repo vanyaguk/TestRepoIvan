@@ -1,4 +1,265 @@
 /*#C7D4DA
+#99BEC3
+#7B8B8B
+#F0F2F1
+#292929*/
+
+html{
+  margin: 0 auto;
+  font-family: 'Prata', serif;
+/*font-family: 'Roboto', sans-serif;*/
+  min-width: 320px;
+  max-width: 1440px;
+  width: 100%;
+  font-size: 18px;
+ 
+}
+/* Main Header cont 1 cont2 */
+.cont1, .cont2{
+  margin: 0;
+  min-width: 320px;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #292929;
+  flex-flow: wrap row;
+  
+}
+
+.leftSide1, .rightSide1 {
+  width: 50%;
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: nowrap row;
+}
+.rightSide1{
+  justify-content: space-around; 
+}
+.leftSide1 a{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+.one1{
+  background-color: #7B8B8B;
+  width: 25%;
+  text-align: center;
+  padding: 15px;
+}
+
+.two2{
+  background-color: #97BEC3;
+  width: 25%;
+  text-align: center;
+  padding: 15px;
+}
+.three3{
+  background-color: #F0F2F1;
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+}
+.four4 {
+  background-color: #C7D4DA;
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+}
+.one1 a , .two2 a, .four4 a{
+  color: white;
+  text-decoration: none;
+}
+.three3 a{
+  color: black;
+  text-decoration: none;
+}
+/* cont 2 */
+.parallax {
+  /* The image used */
+  background-image: url("../Assets/Asset4.png");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cont2{
+  justify-content: center;
+  align-items: center;
+}
+.cont2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 100px;
+}
+.cont2 a:hover {
+  color:#97BEC3;
+}
+
+/* cont3 design*/
+.cont3 {
+  max-width: 1440px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.leftSide2, .rightSide2 {  
+  min-width: 640px;
+  width: 50%;
+  height: 640px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+ 
+  justify-content: center;
+  align-items: center;
+}
+.leftSide2{
+  flex-flow: wrap row;
+}
+
+.squareBox1, .squareBox2, .squareBox3, .squareBox4{
+  height:50%;
+  width: 50%;
+  display: flex;
+  flex-flow: wrap row;
+  box-sizing: border-box;
+}
+
+
+.instagram:hover ,.calendar:hover, .youtube:hover, .facebook:hover{
+  opacity: 0.7;
+}
+.instagram,.calendar,.facebook,.youtube {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.instagram {
+  background: #F0F2F1;
+  color: black;
+}
+.calendar {
+  background: #292929;
+  color: white;
+}
+.facebook {
+  background: #97BEC3;
+  color: white;
+}
+.youtube {
+  background: #C7D4DA;
+  color: white;
+}
+
+.rightSide2{
+  background-color: #7B8B8B;
+  flex-flow: wrap column;
+  color: white;
+}
+.rightSide2 h1 {
+  font-size: 45px;
+}
+.rightSide2 p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 25px;
+}
+.rightSide2 a{
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+.cont4 {
+  margin-top: 0;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  background-image: url(../Assets/Asset1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.imageM {
+  max-width: 1440px;
+  width: 100%;
+}
+.leftSide3{
+  width: 40%;
+  height: 80%;
+  background-color: white;
+  margin-left: 30px;
+  padding-left: 40px;
+}
+
+.imageS {
+  width: 20px;
+  margin: 5px;
+}
+.donate, .googleMap{
+  width: 180px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  color: white;margin: 5px;
+ 
+}
+.donate {
+background-color: #7B8B8B;
+
+}
+.googleMap {
+background-color: #292929;
+}
+
+ .footerMain{
+   position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #292929;
+  padding-bottom: 75px;
+}
+
+.cont5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 20px;
+}
+.cont5 a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+/*#C7D4DA
 #97BEC3
 #7B8B8B
 #F0F2F1
