@@ -270,68 +270,116 @@ background-color: #292929;
   min-height: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.cont22{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 100px;
+  color:black;
+}
+.cont22 h1 {
+  font-size: 165px;
+  color:white;
+  font-family: 'Prata', serif;
+  font-weight: 100;
+  
 
+}
 .cont33 {
   width: 100%;
-  background-image: url("../Assets/background33.png");
-  /* Set a specific height */
-  min-height: 500px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: top;
+  background-image: url(../Assets/background33.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
+  box-sizing: border-box;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: #F0F2F1;
+  padding: 100px;
+  color:#F0F2F1;
+  font-size: 25px;
+  line-height: 55px;
 }
 
+.cont33 span {
+  font-size: 35px;
+  color: black;
+}
 .cont44 {
   width: 100%;
-  height: auto;
   background-image: url(../Assets/background44.png);
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
   text-align: top;
-  padding: 100px;
+  padding: 50px;
   color: black;
   font-size: 25px;
   text-align: center;
 }
-.cont55 {
-  height: auto;
-  color
+.whoIsJesus {
+  width: 100%;
   box-sizing: border-box;
-  text-align: top;
-  padding: 100px;
-  color: black;
-  font-size: 25px;
+  background: #292929;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.whoIsJesus h1{
   text-align: center;
+  font-size: 45px;
+}
+.twoGrids {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.rightGrid, .leftGrid {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 45px;
+}
+.john316 {
+  width: 100%;
+  box-sizing: border-box;
+   /* The image used */
+   background-image: url("../Assets/background55.png");
+   /* Set a specific height */
+   min-height: 500px;
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-left: 200px;
+   padding-right: 200px;
+   color: white;
+   padding-top: 120px;
 }
 
-.parallax4 {
-  /* The image used */
-  background-image: url("../Assets/background55.png");
-  /* Set a specific height */
-  min-height: 500px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.cont66 {
+.JesusCares{
+  width: 100%;
   box-sizing: border-box;
-  text-align: top;
-  padding: 100px;
-  color: white;
-  font-size: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.JesusCares p {
+  width: 750px;
+  padding:25px;
+  box-sizing: border-box;
+  font-family: 'Prata', serif;
+}
+.JesusCares h3{
   text-align: center;
 }
