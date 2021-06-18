@@ -15,6 +15,11 @@ html{
   font-size: 18px;
  
 }
+
+body {
+  margin: 0;
+}
+
 /* Main Header cont 1 cont2 */
 .cont1, .cont2{
   margin: 0;
@@ -365,7 +370,7 @@ background-color: #292929;
    padding-top: 120px;
 }
 
-.JesusCares{
+.JesusCares, .googleMaps {
   width: 100%;
   box-sizing: border-box;
   padding: 25px;
@@ -382,4 +387,28 @@ background-color: #292929;
 }
 .JesusCares h3{
   text-align: center;
+}
+.findChurch {
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url(../assets/Asset2.png);
+  background-color: #e38f87;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.findChurch p {
+  width: 750px;
+  padding:25px;
+  box-sizing: border-box;
+  font-family: 'Prata', serif;
+}
+.findChurch span {
+  color: white;
+}
+.googleMaps {
+  background-color: #292929;
+  padding: 0;
 }
