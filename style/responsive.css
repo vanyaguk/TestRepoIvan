@@ -1,0 +1,25 @@
+/* screen size for 1295 */
+@media screen and (max-width: 1295px) {
+    .leftSide2, .rightSide2 {
+        min-width: 490px;
+        height: 490px;
+    }
+}
+/* screen size 1023 */ 
+@media screen and (max-width: 1023px) {
+    .leftSide2, .rightSide2 {
+        width: 640px;
+        height: 640px;
+    }
+}
+
+/* screen max-height: 450px */ 
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
